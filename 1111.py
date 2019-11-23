@@ -41,7 +41,7 @@ def run():
     return r
 
 
-for i in range(timesToLoop):
+for i in range(int(timesToLoop)):
     result = run()
     if result.status_code == 200:
         print(i + 1, "OK")
