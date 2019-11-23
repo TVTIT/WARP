@@ -3,12 +3,9 @@ import json
 import datetime
 import random
 import string
-import sys
-import time
 
-if __name__ == '__main__':
-	referrer = sys.argv[1]
-	timesToLoop = int(sys.argv[2])
+referrer = input("Nhập ID của bạn: ")
+timesToLoop = input("Nhập số GB muốn tăng: ")
 retryTimes = 5
 print("Running with ID: " + referrer)
 
